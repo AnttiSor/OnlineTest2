@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-buttons start>
+      <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    </ion-buttons>
+    <ion-title >Personal Information</ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding class="bg"><br>
+  Hello my Name is Antti! Look at my CV!<br><br>
+
+  You can navigate using the tabs and logout using the menu pulldown.<br><br><br>
+
+
+  
+      <ion-item class="bg1">
+            <ion-label>Graduation date:</ion-label>
+            <ion-datetime displayFormat="DDD DD.MM.YY" min="2017" max="2021" [dayShortNames]="operaShortDay" [(ngModel)]="graduating"></ion-datetime>
+          </ion-item>
+    
+</ion-content>
